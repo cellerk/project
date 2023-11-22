@@ -1,7 +1,11 @@
-name: dstoolbox
+name: project-env
 channels:
   - conda-forge
   - defaults
 dependencies:
-  - scikit-learn=1.2.1
-prefix: C:\Users\celle\miniconda3\envs\dstoolbox
+  - python>3.10
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - jupyterlab
+
